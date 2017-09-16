@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2017-09-15 08:38:21
-* @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-15 21:59:12
+* @Last Modified by:   L1314
+* @Last Modified time: 2017-09-16 10:56:18
 */
 
 #tubudh{
@@ -23,12 +23,12 @@
 	margin: auto;
 }
 .logo{
-	width: 177px;
-	height: 48px;
+	width: 150px;
+	height: 50px;
 	background-color: #fff;
 	margin-top: 16px;
 	float: left;
-	background-image: url('../img/main_02.png');
+	background-image: url('../img/4.png');
 }
 .wenzi{
 	width: 765px;
@@ -76,9 +76,9 @@
 	position: relative;
 }
 .dtkj-img{
-	width: 1300px;
+	width: 100%;
 	height: 100%;
-	background-image: url('../img/dt.jpg');
+	background-image: url('../dt.jpg');
 	text-align: center;
 	position: absolute;
 	left: 0;
@@ -89,16 +89,19 @@
 	width: 700px;
 	height: 21px;
 	/* background-color: yellowgreen; */
-	margin: 0 auto;
-	margin-top: 450px;
+	/* margin: 0 auto;
+	margin-top: 450px; */
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 .lpd{
 	width: 80px;
 	height: 6px;
 	background-color: #fff;
+	margin-right: 32px;
+	margin-bottom: 12px;
 	float: left;
-	margin-left: 32px;
-	margin-top: 12px;
 }
 .lpd1{
 	background-color: orangered;
